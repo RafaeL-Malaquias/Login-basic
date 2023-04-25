@@ -1,21 +1,41 @@
 @charset "UTF-8";
 
 body {
-    background-color: darkgrey;
+    background-color: #454d6b;
+    margin: 0;
+    padding: 0;
 }
-
-.formLogin {
+#login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.card {
+    background-color: rgba(19, 19, 19, 0.3);
+    padding: 40px;
+    border-radius: 10px;
     width: 250px;
-    margin: 50px auto 0;
-
+    height: 200px;
 }
-.formLogin label {
-
-
+.card-header {
+    padding-bottom: 50px;
+    opacity: 0.9;
+    color: #fff;
+    text-align: center;
 }
-.formLogin legend {
-    background-color: rgb(255, 255, 255);
-    display: ;
-    margin: auto;
-
+.card-header::after {
+    content: "";
+    width: 90px;
+    height: 1px;
+    background-color: #fff;
+    display: block;
+    margin-top: -10;
+    margin-left: 80px;
+}
+.card-content label {
+    color: #fff;
+    font-size: 20px;
+}
 
