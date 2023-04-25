@@ -5,7 +5,6 @@ body {
     background-image: url(../img/back-log.jpg);
     margin: 0;
     padding: 0;
-    
 }
 #login {
     display: flex;
@@ -19,6 +18,8 @@ body {
     padding: 40px;
     border-radius: 10px;
     width: 280px;
+    backdrop-filter: blur(1px);
+    
     
 }
 .card-header {
@@ -37,30 +38,36 @@ body {
     background-color: #fff;
     display: block;
     margin-top: -15px;
-    margin-left: 50px;
+    margin-left: 40px;
     
 }
 .card-content label {
     color: #fff;
     font-size: 20px;
-   opacity: 0.8;
 }
 
 .card-content-area {
     display: flex;
     flex-direction: column;
-    padding: 15px 0;
+    padding: 20px ;
+    margin: 5px;
 }
 
 .card-content-area input {
     margin-top: 10px;
-    padding: 0 5px;
+    padding: 5px;
     background-color: transparent;
     border: none;
     border-bottom: 1px solid #e1e1e1;
     outline: none;
     color: #fff;
 
+}
+
+.box-dig:focus {
+    background-color: rgba(110, 110, 110, 0.281);
+    padding: 5px;
+    opacity: 1px;
 }
 
 .recuperar-senha:hover {
@@ -104,4 +111,5 @@ body {
     margin: 5px;
     padding: 5px
 }
+
 
