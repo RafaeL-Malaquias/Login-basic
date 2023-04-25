@@ -109,7 +109,18 @@ body {
     color: #e1e1e1;
     text-decoration: none;
     margin: 5px;
-    padding: 5px
+    padding: 5px;
 }
+
+.rodape {
+    padding: 25px;
+    font-size: 17px;
+    color: #bbc1c5;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
 
 
