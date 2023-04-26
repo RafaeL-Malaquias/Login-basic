@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-
+/*i remove img background for put color*/
 body {
     background-image: url(../img/back-log.jpg);
     margin: 0;
@@ -140,6 +140,5 @@ body {
     left: 70px;
     width: 100px;
 }
-
 
 
