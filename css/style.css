@@ -5,12 +5,14 @@ body {
     background-image: url(../img/back-log.jpg);
     margin: 0;
     padding: 0;
+    clear: both;
 }
 #login {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
+    clear: both;
     
 }
 .card {
@@ -19,28 +21,39 @@ body {
     border-radius: 10px;
     width: 250px;
     backdrop-filter: blur(1px);
+    clear: both;
     
     
     
 }
 .card-header {
     font-size: 20px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
     opacity: 0.9;
     color: #fff;
     text-align: center;
     text-transform: uppercase;
+    clear: both;
     
     
 }
-.card-header::after {
+.h1-header::after {
     content: "";
-    width: 200px;
+    width: 250px;
     height: 1px;
     background-color: #fff;
     display: block;
-    margin-top: -15px;
-    margin-left: 40px;
+    margin-top: -8px;
+    margin-left: 0px;
+}
+.card-header::after {
+    content: "";
+    width: 190px;
+    height: 1px;
+    background-color: #fff;
+    display: block;
+    margin-top: -22px;
+    margin-left: 30px;
     
 }
 .card-content label {
@@ -114,15 +127,16 @@ body {
     padding: 5px;
 }
 
+
+
 .rodape {
     position: absolute;
-    padding: 25px;
-    font-size: 17px;
+    font-size: 10px;
     color: #ffffff;
     letter-spacing: 5px;
    margin-top: 25px;
-   right: -612px;
    text-transform: uppercase;
+   right: auto;
     
 }
 
