@@ -126,9 +126,6 @@ body {
     margin: 5px;
     padding: 5px;
 }
-
-
-
 .rodape {
     position: absolute;
     font-size: 10px;
@@ -137,7 +134,11 @@ body {
    margin-top: 25px;
    text-transform: uppercase;
    right: auto;
-    
+}
+.img-footer {
+    position: absolute;
+    left: 70px;
+    width: 100px;
 }
 
 
