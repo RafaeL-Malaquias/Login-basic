@@ -2,17 +2,14 @@
 
 /*i remove img background for put color*/
 body {
-    background-image: url(../img/back-log.jpg);
-    margin: 0;
-    padding: 0;
-    clear: both;
+    
+    background: linear-gradient(180deg, #0179ff, #5673ff, #7e6bfe, #9e62f9, #bb56f2, #d446e8, #eb31db, #ff01cc) ;
 }
 #login {
     display: flex;
-    align-items: center;
     justify-content: center;
     height: 100vh;
-    clear: both;
+
     
 }
 .card {
@@ -22,29 +19,24 @@ body {
     width: 250px;
     backdrop-filter: blur(1px);
     clear: both;
-    
-    
-    
 }
 .card-header {
-    font-size: 20px;
-    padding-bottom: 30px;
+    font-size: 15px;
+    padding-bottom: 40px;
     opacity: 0.9;
     color: #fff;
     text-align: center;
     text-transform: uppercase;
     clear: both;
-    
-    
 }
 .h1-header::after {
     content: "";
-    width: 250px;
+    width: 200px;
     height: 1px;
     background-color: #fff;
     display: block;
-    margin-top: -8px;
-    margin-left: 0px;
+    margin-top: -5px;
+    margin-left: 20px;
 }
 .card-header::after {
     content: "";
@@ -52,7 +44,7 @@ body {
     height: 1px;
     background-color: #fff;
     display: block;
-    margin-top: -22px;
+    margin-top: -15px;
     margin-left: 30px;
     
 }
@@ -97,7 +89,7 @@ body {
     transition: 1.5s;
 
 }
-.card-footer {
+.card-submit {
     display: flex;
     flex-direction: column;
 }
@@ -107,23 +99,24 @@ body {
     
   }
 
-.card-footer .slide_right {
+.card-submit .slide_right {
     font-family: sans-serif;
-    width: 100%;
-    height: 40px;
+    width: 150px;
+    height: 28px;
     background-color: rgb(0, 132, 255);
     border: none;
     border-radius: 5px;
     color: #e1e1e1;
-    margin: 10px 0;
+    margin: 0 50px 0;
 }
-.card-footer a {
+.card-submit a {
+    width: 150px;
     text-align: center;
-    font-size: 20px;
+    font-size: 10px;
     opacity: 0,8;
     color: #e1e1e1;
     text-decoration: none;
-    margin: 5px;
+    margin: 0 50px;
     padding: 5px;
 }
 .rodape {
