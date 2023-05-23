@@ -58,6 +58,8 @@ body {
 .card-content label {
     color: #ffffff;
     font-size: 15px;
+    letter-spacing: 2px ;
+    text-transform: uppercase;
 }
 
 .card-content-area {
